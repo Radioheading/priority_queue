@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/exceptions.hpp
+cstddef
+-
+cstring
+-
+string
+-
+
+../src/priority_queue.hpp
+cstddef
+-
+functional
+-
+exceptions.hpp
+../src/exceptions.hpp
+iostream
+-
+
+/mnt/c/Users/18221/Downloads/STLite_ACM-master 2/STLite_ACM-master/priority_queue/data/one.memcheck/code.cpp
+iostream
+-
+queue
+-
+ctime
+-
+cstdlib
+-
+priority_queue.hpp
+/mnt/c/Users/18221/Downloads/STLite_ACM-master 2/STLite_ACM-master/priority_queue/data/one.memcheck/priority_queue.hpp
+
